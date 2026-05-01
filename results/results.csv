@@ -1,0 +1,7 @@
+Metric,NF4,FP4
+Training Time (min),9.08,10.46
+Memory Before (GB),0.0,8.11
+Memory After Load (GB),8.15,16.25
+Peak Memory (GB),11.69,15.29
+Final Loss,1.1446,1.1494
+MMLU Score (%),TBD,TBD

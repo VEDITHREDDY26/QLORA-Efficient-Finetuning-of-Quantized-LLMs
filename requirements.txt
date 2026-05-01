@@ -1,0 +1,24 @@
+# QLoRA NF4 vs FP4 — pinned dependencies
+# Verified working on Google Colab A100-40GB (Python 3.12)
+
+# Core ML stack
+torch>=2.4.0
+transformers==4.51.0
+peft==0.14.0
+trl==0.12.0
+accelerate>=0.34.0
+bitsandbytes>=0.43.0
+triton==3.1.0
+
+# Tokenization & data
+sentencepiece>=0.2.0
+datasets>=2.20.0
+huggingface_hub>=0.24.0
+
+# Evaluation
+lm-eval>=0.4.4
+
+# Utilities
+matplotlib>=3.7.0
+pandas>=2.0.0
+numpy>=1.24.0
