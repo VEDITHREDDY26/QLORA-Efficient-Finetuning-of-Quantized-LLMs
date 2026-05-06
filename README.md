@@ -1,17 +1,18 @@
 # QLoRA: NF4 vs FP4 Quantization — Reproducing Dettmers et al. (2023)
 
-## Team Members
-
-- Vedith Reddy
-- Himasriya Engu
-- Shrestha
-- Priyanka
 
 This repository reproduces the central finding of the [QLoRA paper](https://arxiv.org/abs/2305.14314) (Dettmers, Pagnoni, Holtzman, Zettlemoyer, NeurIPS 2023): the **NF4 (4-bit NormalFloat)** data type yields better downstream task accuracy than the standard **FP4** at identical memory cost when fine-tuning large language models with low-rank adapters.
 
 We fine-tune **LLaMA-3-8B** on the **Alpaca** instruction dataset using both NF4 and FP4 quantization, then evaluate the resulting models on the **MMLU** benchmark (5-shot, subset).
 
 **Headline result:** NF4 outperforms FP4 by **+1.99 percentage points on MMLU** at essentially identical memory and time cost, reproducing the paper's claim on a more recent base model.
+
+## Team Members
+
+- Vedith Reddy
+- Himasriya Engu
+- Shrestha
+- Priyanka
 
 ---
 
