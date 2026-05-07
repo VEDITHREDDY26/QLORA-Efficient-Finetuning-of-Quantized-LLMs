@@ -9,10 +9,10 @@ We fine-tune **LLaMA-3-8B** on the **Alpaca** instruction dataset using both NF4
 
 ## Team Members
 
-- Vedith Reddy
+- Vedith Reddy Kommula
 - Himasriya Engu
-- Shrestha
-- Priyanka
+- Shrestha Reddy Saireddy
+- Priyanka Basava
 
 ---
 
